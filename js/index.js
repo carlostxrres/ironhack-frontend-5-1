@@ -32,6 +32,7 @@ function removeProduct(event) {
   const target = event.currentTarget;
   const productNode = target.closest('.product');
   productNode.remove();
+  calculateAll();
 }
 
 // ITERATION 5
