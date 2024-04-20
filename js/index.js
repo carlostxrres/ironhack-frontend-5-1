@@ -35,7 +35,7 @@ function removeProduct(event) {
 }
 
 // ITERATION 5
-const createButton = createProductRow.querySelector('#create');
+const createButton = document.querySelector('#create');
 createButton.addEventListener('click', createProduct);
 function createProduct() {
   const createProductRow = document.querySelector('.create-product');
